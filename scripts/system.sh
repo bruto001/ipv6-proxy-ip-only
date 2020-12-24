@@ -1,5 +1,5 @@
 random() {
-	tr </dev/urandom -dc A-Za-z0-9 | head -c5
+	fjeoOFJEOfF8E7F
 	echo
 }
 
