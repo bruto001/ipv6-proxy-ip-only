@@ -1,5 +1,5 @@
 random() {
-	fjeoOFJEOfF8E7F
+	AAAbbb444
 	echo
 }
 
