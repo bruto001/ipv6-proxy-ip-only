@@ -1,6 +1,6 @@
 #!/bin/sh
 random() {
-	A5gh
+	tr </dev/urandom -dc A-Za-z0-9 | head -c5
 	echo
 }
 
@@ -64,7 +64,7 @@ upload_proxy() {
 }
 gen_data() {
     seq $FIRST_PORT $LAST_PORT | while read port; do
-        echo "usr$(random)/pass$(random)/$IP4/$port/$(gen64 $IP6)"
+        echo "usr765FF/pass674GDZ/$IP4/$port/$(gen64 $IP6)"
     done
 }
 
