@@ -36,9 +36,7 @@ setuid 65535
 stacksize 262144
 flush
 auth iponly
-allow * 95.102.44.85
-
-
+allow * 95.102.44.85/24
 "proxy -6 -n -a -p" $4 " -i" $3 " -e"$5"\n" \
 "flush\n"}' ${WORKDATA})
 EOF
